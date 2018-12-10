@@ -28,10 +28,11 @@ section {
 .img-flex {
   width: 100%;
   display: block;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 .wrapper {
-  display: flex;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 45em;
