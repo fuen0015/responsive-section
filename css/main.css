@@ -28,12 +28,16 @@ section {
 .img-flex {
   width: 100%;
   display: block;
-  flex-wrap: wrap;
-  display: flex;
 }
 
 .wrapper {
+  display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
   max-width: 45em;
+}
+
+.section-body {
+  width: 100%;
 }
